@@ -1,21 +1,22 @@
 {
-	"name": "moukon-bot",
-	"module": "index.ts",
-	"type": "module",
-	"scripts": {
-		"format": "biome format --write ."
-	},
-	"devDependencies": {
-		"@types/bun": "latest"
-	},
-	"peerDependencies": {
-		"typescript": "^5.0.0"
-	},
-	"dependencies": {
-		"@biomejs/biome": "^1.7.3",
-		"@types/node-cron": "^3.0.11",
-		"dotenv": "^16.4.5",
-		"node-cron": "^3.0.3",
-		"twitter-api-v2": "^1.17.1"
-	}
+  "name": "moukon-bot",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "format": "biome format --write ."
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.7",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@biomejs/biome": "^1.7.3",
+    "@types/node-cron": "^3.0.11",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "twitter-api-v2": "^1.17.1"
+  }
 }
