@@ -15,8 +15,11 @@
   "dependencies": {
     "@biomejs/biome": "^1.7.3",
     "@types/node-cron": "^3.0.11",
+    "@types/node-schedule": "^2.1.7",
     "dotenv": "^16.4.5",
+    "moment-timezone": "^0.5.45",
     "node-cron": "^3.0.3",
+    "node-schedule": "^2.1.1",
     "twitter-api-v2": "^1.17.1"
   }
 }
