@@ -23,7 +23,7 @@ export const postImage = async () => {
   
   // Post tweet with media
   const { data: createdTweet } = await rwClient.v2.tweet({
-    text: "Hello world",
+    text: "",
     media: {
       media_ids: [mediaId],
     },
